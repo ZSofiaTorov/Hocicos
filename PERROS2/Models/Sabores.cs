@@ -2,8 +2,12 @@
 {
     public class Sabores
     {
-         public int pedidoID {  get; set; }
-         public int clienteID { get; set; }
+        public int SaborID { get; set; }
+        public int ProductoID { get; set; }
+        public string Nombredesabor { get; set; } = "";
+        public string Contenidodelcolageno { get; set; } = "";
+        public string Descripcion { get; set; } = "";
+        public int cantidadenstock { get; set; }
 
 
     }
